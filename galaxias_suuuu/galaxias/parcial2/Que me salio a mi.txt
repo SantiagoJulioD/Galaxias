@@ -1,0 +1,23 @@
+Nada tampoco, pero les sirve pa estudiar ajajaja
+Lo que recuerdo
+
+Primer Punto
+a) A partir de un potencial que les da, hallar la densidad y otra cosa que no me acuerdo (algo con aritmetica, creo que era si eso tenía sentido o que si se comporta como una distribución de masa de una galaxia real)
+
+b) Luego halle una expresión para hallar la masa total e indique en donde está la mitad de la masa
+
+c) Halle la velocidad circular y muestre si tiene (o no... :))))) ese men) si tiene pendiente de ln 2 o por ahí iba esa ultima parte
+
+En definitiva, el taller 4 (marce te amo x2), entonces solo aprendanse como sacar cada una de cada perfil y estarán bien (es un proceso muy mecánico) 
+
+Segundo Punto
+Literalmente, y es en serio, explicar lo primero que ven del parcial 2 (lo de que un espectro de una galaxia se puede aproximar como la sueprposición del espectro de todas las estrellas en ella, recuerden mencionar que esa es una aproximación porque se toman SOLO las estrellas) y ya. Aprendanse tal cual eso y sacan ese punto bueno, EN SERIO xd (pero explicando bien todo pues, como le gusta al juank)
+
+Tercer Punto
+No se pai ajajaaj
+Iba por el estilo de hallar la fercuencia de epiciclo y la frecuencia vertical (si, una porquería porque es hacerle la doble derivada a un potencial y ya saben que tan lindos son esos). Entonces aprendanse bien las expresiones de esa parte y estarán bien. 
+
+Consejo: no pierdan tanto tiempo en el 1 y en el 2, que esos salen fácil. El 1 se demora porque uno tiene que integrar pero breve. Nos vemos en el tercer parcial.
+
+Consejo 2: si les tira el mismo mamarracho de parte computacional que a nosotros, corran eso con poquitos datos cuando lo prueben (que una hora corriendo el codigo y no me salia ajaja) y vayan a cuantas asesorias puedan x_x
+Si necesitan saber que tuve malo en ese, me preguntan que me da paja seguir escribiendo y todos tienen mi numero, creo...
