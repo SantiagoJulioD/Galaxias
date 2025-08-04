@@ -41,7 +41,7 @@
 \usepackage{amsmath}
 %\usepackage[pdftex,active,tightpage]{preview}
 %\setlength\PreviewBorder{2mm}
-
+\usepackage[spanish]{babel}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.10}
@@ -153,11 +153,118 @@
 
 \section{Perfil de Miyamoto-Nagai}
 
-La primera parte de este informe corresponde al estudio de un modelo del disco de una galaxia espiral utilizando el perfil de \emph{Miyamoto-Nagai}, dado por el potencial de la forma
+La primera parte de este informe corresponde al estudio de un modelo del disco de una galaxia espiral utilizando el perfil de \emph{Miyamoto-Nagai}, dado por el potencial de la forma \cite{binney2011galactic}
 
 \begin{equation}
-\phi = \dfrac{GM}{\sqrt{R^2+(a+\sqrt{z^2+b^2})^2}}
-\end{equation}\label{eq:MNprof}
+\phi  = -\dfrac{G M}{\sqrt{R^2+\left(a+\sqrt{z^2+b^2}\right)^2}}.
+\end{equation}\label{eq:MNpot}
+
+La figura \ref{fig:MNpot} muestra los contornos del valor absoluto del potencial. Nótese que, según la gráfica, el potencial crece a medida que aumentan $R$ y $z$ y no tiene divergencias. 
+
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{../potencial.png}
+\caption{Potencial de Miyamoto-Nagai. Como el potencial es definido negativo, en la figura se muestran los contornos de $-\phi(R,z)$ para una razón $b/a=0.25$ con $a=3$ y $M=1.3\times10^{11}~M_\odot$.} \label{fig:MNpot}
+\end{figure} 
+
+Este potencial da lugar a una densidad de la forma
+
+\begin{equation}
+\rho=\frac{b^2M}{4\pi}\frac{aR^2+(a+3\sqrt{z^2+b^2})(a+\sqrt{z^2+b^2})^2}{[R^2+(a+\sqrt{z^2+b^2})^2]^{5/2}(z^2+b^2)^{3/2}}. \label{eq:MNdens}
+\end{equation}
+
+La figura \ref{fig:MNdens} muestra los contornos de este perfil de densidad.
+
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{../densidad.png}
+\caption{Densidad de Miyamoto-Nagai. En la figura se muestran los contornos de $\rho(R,z)$ para una razón $b/a=0.25$ con $a=3$ y $M=1.3\times10^{11}~M_\odot$.} \label{fig:MNdens}
+\end{figure} 
+
+Los parámetros $a$ y $b$ controlan la forma de la distribución y, por tanto, de la galaxia: si $a=0$, el perfil de Miyamoto-Nagai se reduce a un perfil de Plummer, que tiene simetría esférica; así, mientras más grande es $a$, la forma del disco se aleja más de la de una esfera, esto es, se achata. Por otro lado, si $b=0$, el perfil de Miyamoto-Nagai se tiende al perfil de Kuzmin, que describe discos infinitesimalmente delgados, de manera que $b$ controla el grosor del disco. Para este ejercicio, se escogieron $a$ y $b$ tales que se cumpla que $b/a=0.25$, se escogió a su vez un valor de $a=3$, de modo que se está modelando una galaxia relativamente achatada y con un disco considerablemente delgado, en tanto $b=0.75$; esto se puede confirmar en la gráfica de la densidad mostrada en la figura \ref{fig:MNdens}. Finalmente, se escogió un valor de $1.3\times10^{11}~M_\odot$ para la masa, teniendo como referencia la galaxia de Andrómeda (M31), pues es este el valor de su masa estelar \cite{Corbelli_2010}.\\
+
+Considérese una órbita en equilibrio en el plano de la galaxia $z=0$. Esta órbita es una circunferencia de radio $R_g$, conocido como \emph{radio guía}, y representa una condición de equilibrio estable para el sistema en tanto $\nabla\phi_{eff}(R_g,0)=\vec{0}$ y $\phi_{eff}(R_g,0)$ es un mínimo del potencial efectivo, definido como:
+
+\begin{equation}
+\phi_{eff}(R,z)=\phi(R,z)+\dfrac{L_z^2}{2R^2}. \label{eq:poteff}
+\end{equation}
+
+Esto implica que una estrella puede presentar pequeñas oscilaciones en las direcciones radial y vertical en torno a la órbita guía. Expandiendo el potencial efectivo en series de Taylor alrededor de la posición de equilibrio hasta el primer orden no nulo, se encuentra que:
+
+\begin{equation}
+\phi_{eff}(R,z)\approx \dfrac{1}{2}\kappa^2x^2+\dfrac{1}{2}\nu^2z^2, \label{eq:potOA}
+\end{equation}
+
+que es el potencial de dos osciladores armónicos desacoplados, donde $x$ y $z$ son las pequeñas perturbaciones a la posición de equilibrio y 
+
+\begin{align}
+\kappa^2=\left.\dfrac{\partial^2\phi_{eff}}{\partial R^2}\right|_{(R_g,0)}=\left.\dfrac{\partial^2\phi}{\partial R^2}\right|_{(R_g,0)}+\dfrac{3L_z^2}{R_g^4}, \label{eq:fepi}\\
+\nu^2=\left.\dfrac{\partial^2\phi_{eff}}{\partial z^2}\right|_{(R_g,0)}=\left.\dfrac{\partial^2\phi}{\partial z^2}\right|_{(R_g,0)}. \label{eq:fvert}
+\end{align}
+
+Estas cantidades se conocen como \emph{frecuencia de epiciclo} y \emph{frecuencia vertical}, respectivamente. Adicionalmente, en la posición de equilibrio se satisface que
+
+\begin{equation}
+\left.\dfrac{\partial\phi_{eff}}{\partial R}\right|_{(R_g,0)}=\left.\dfrac{\partial\phi}{\partial R}\right|_{(R_g,0)}-\dfrac{L_z^2}{R_g^3}=0. \label{eq:eq}
+\end{equation}
+
+Reemplazando el resultado \ref{eq:eq} en la frecuencia de epiciclo \ref{eq:fepi} se puede obtener una expresión para $\kappa^2$ en términos de las derivadas del potencial:
+
+\begin{equation}
+\kappa^2=\left.\dfrac{\partial^2\phi}{\partial R^2}\right|_{(R_g,0)}+\dfrac{3}{R_g}\left.\dfrac{\partial\phi}{\partial R}\right|_{(R_g,0)}. \label{eq:fepi2}
+\end{equation}
+
+Para el potencial de Miyamoto-Nagai, las derivadas radiales del potencial están dadas por:
+
+\begin{align}
+\dfrac{\partial\phi}{\partial R}=\frac{G M R}{\left(R^2+\left(a+\sqrt{b^2+z^2}\right)^2\right)^{3/2}}\label{eq:dphidR},\\
+\dfrac{\partial^2\phi}{\partial R^2}=\frac{G M \left(a^2+b^2-2 R^2+z^2+2 a \sqrt{b^2+z^2}\right)}{\left(R^2+\left(a+\sqrt{b^2+z^2}\right)^2\right)^{5/2}}.\label{eq:d2phidR2}
+\end{align}
+
+Al evaluar en la posición de equilibrio, teniendo en cuenta que $b,R_g>0$, y sustituir en \ref{eq:fepi2}, se obtiene que la frecuencia de epiciclo es
+
+\begin{equation}
+\kappa^2(R_g)=\frac{G M \left(4 (a+b)^2+R_g^2\right)}{\left((a+b)^2+R_g^2\right)^{5/2}}. \label{eq:fepiMN}
+\end{equation}
+
+Similarmente, la segunda derivada del potencial respecto a $z$ es dada por:
+
+\begin{align}
+\dfrac{\partial^2\phi}{\partial z^2}=-\frac{3 G M z^2 \left(a+\sqrt{b^2+z^2}\right)^2}{\left(b^2+z^2\right) \left(R^2+\left(a+\sqrt{b^2+z^2}\right)^2\right)^{5/2}}+\nonumber\\+\frac{G
+M z^2}{\left(b^2+z^2\right) \left(R^2+\left(a+\sqrt{b^2+z^2}\right)^2\right)^{3/2}}-\nonumber\\-\frac{G M z^2 \left(a+\sqrt{b^2+z^2}\right)}{\left(b^2+z^2\right)^{3/2}
+\left(R^2+\left(a+\sqrt{b^2+z^2}\right)^2\right)^{3/2}}+\nonumber\\+\frac{G M \left(a+\sqrt{b^2+z^2}\right)}{\sqrt{b^2+z^2} \left(R^2+\left(a+\sqrt{b^2+z^2}\right)^2\right)^{3/2}}.\label{eq:d2phidz2}
+\end{align}
+
+Sin embargo, es fácil ver que tres de los términos de \ref{eq:d2phidz2} se anulan al evaluar en la órbita guía, dando lugar a la expresión para la frecuencia vertical:
+
+\begin{equation}
+\nu^2(R_g)=\frac{(a+b) G M}{b \left((a+b)^2+R^2\right)^{3/2}} \label{eq:fvertMN}
+\end{equation}
+
+Nótese que, si se escribe $4(a+b)^2=3(a+b)^2+(a+b)^2$, \ref{eq:fepiMN} se puede descomponer en dos términos: el primero proporcional a $\left((a+b)^2+R_g^2\right)^{-5/2}$ y el segundo proporcional a $\left((a+b)^2+R_g^2\right)^{-3/2}$, de modo que al tomar la derivada con respecto a $R$ de la frecuencia de epiciclo, se encuentra que esta es negativa para todo valor de $R$, esto es, la frecuencia de epiciclo es una función monótonamente decreciente con $R$. Análogamente, la frecuencia vertical es proporcional a $\left((a+b)^2+R_g^2\right)^{-3/2}$ y su derivada es negativa para cualqueir valor de $R$, haciendo de la frecuencia vertical una función monótonamente decreciente. Este comportamiento de las frecuencias tiene sentido pues para órbitas con radio guía pequeño, la fuerza de restitución que soporta el movimiento oscilatorio, y que es provista por el campo gravitacional, es mayor, haciendo que las oscilaciones tengan una frecuencia más alta. La figura \ref{fig:frecs} muestra las frecuencias de epiciclo y vertical en función de la distancia al centro galáctico para órbitas levemente perturbadas del plano galáctico.\\
+
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{../frecuenciasMN.png}
+\caption{Frecuencias de epiciclo y vertical para el potencial de Miyamoto-Nagai.} \label{fig:frecs}
+\end{figure} 
+
+En las coordenadas $R$ y $z$, las ecuaciones de movimiento son las de un oscilador armónico que oscila alrededor de los puntos de equilibrio, luego las soluciones a dichas ecuaciones son:
+
+\begin{align}
+R(t)=R_g+x_0\cos(\kappa t+\psi), \label{eq:OAR}\\
+z(t)=z_0\cos(\nu t+\zeta), \label{eq:OAZ}
+\end{align}
+
+donde $\psi,\zeta$ son fases arbitrarias y $x_0,z_0$ son las amplitudes de las oscilaciones, que en principio están determinadas por la energía del sistema y deben ser pequeñas. Por otro lado, la primera integral del movimiento azimutal da lugar a $\dot{\varphi}=L_zR(t)^{-2}$, que, al reemplazar \ref{eq:OAR} y usar la aproximación binomial, la ecuación se puede integrar en el tiempo para obtener una expresión general para el ángulo:
+
+\begin{equation}
+\varphi(t)=\varphi_0+\Omega_0t-\frac{2x_0}{R_g\kappa}\sin(\kappa t+\psi),\label{eq:azimut}
+\end{equation}
+
+donde $\varphi_0$ es una constante de integración arbitraria y $\Omega_0=L_zR_g^{-2}$, que puede escribirse en términos de la derivada del potencial de acuerdo a \ref{eq:eq}. Al combinar entonces estas  ecuaciones, se puede describir por completo el movimiento de una estrella en una órbita casi circular, como se muestra en la figura \ref{fig:orbs}.
+
+\begin{figure}[h!]
+\includegraphics[width=\columnwidth]{../orbitasMN.png}
+\caption{Órbitas guía y órbitas perturbadas en el potencial de Miyamoto-Nagai. Se escogieron dos radios guía: 2.5 kpc y 10 kpc para ilustrar el comportamiento de las perturbaciones a distintos radios. Aquí, se escogieron las fases arbitrarias iguales a 0 y las amplitudes iguales a 1 para poder apreciar la oscilación alrededor de la órbita guía. Cada órbita se integra en dos períodos de la órbita guía.} \label{fig:orbs}
+\end{figure} 
 
 \bibliographystyle{abbrv} 
 \bibliography{example.bib}
