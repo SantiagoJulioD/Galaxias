@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  2 AUG 2025 22:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  3 AUG 2025 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1113,8 +1113,6 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.10).
 
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 119.
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
 46.
 (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
@@ -1138,6 +1136,9 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
 (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 154.
+
 (main.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
@@ -1157,16 +1158,12 @@ nti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 26453 strings out of 475248
- 669400 string characters out of 5757814
+ 26451 strings out of 475248
+ 669340 string characters out of 5757814
  1921801 words of memory out of 5000000
- 47513 multiletter control sequences out of 15000+600000
+ 47511 multiletter control sequences out of 15000+600000
  585303 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,89p,727b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1178,7 +1175,7 @@ fonts/txsy.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (1 page, 51425 bytes).
+Output written on main.pdf (1 page, 51148 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  3 AUG 2025 00:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  3 AUG 2025 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -192,8 +192,8 @@ $\OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/10 + [] \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m
  []
 
 
-Overfull \hbox (566.3771pt too wide) in paragraph at lines 55--57
-$\OMS/cmsy/m/n/10 ^^@ []$ 
+Overfull \hbox (157.06155pt too wide) in paragraph at lines 55--57
+$\OMS/cmsy/m/n/10 ^^@[]$ 
  []
 
 [1
@@ -208,7 +208,7 @@ L3 programming layer <2023-08-29>
 Here is how much of TeX's memory you used:
  2445 strings out of 475248
  36109 string characters out of 5757814
- 1940801 words of memory out of 5000000
+ 1939801 words of memory out of 5000000
  23983 multiletter control sequences out of 15000+600000
  559768 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -225,7 +225,7 @@ a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/santi
 s/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 msy7.pfb>
-Output written on Galaxias_p2.pdf (3 pages, 116935 bytes).
+Output written on Galaxias_p2.pdf (3 pages, 115319 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
