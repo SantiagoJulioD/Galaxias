@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  4 AUG 2025 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  4 AUG 2025 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1033,6 +1033,30 @@ File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 arypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
+(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen286
+\pgfarrowlength=\dimen287
+\pgfarrowwidth=\dimen288
+\pgfarrowlinewidth=\dimen289
+)
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
 5.
 
@@ -1088,13 +1112,13 @@ LaTeX Font Info:    ... okay on input line 65.
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count318
-\scratchdimen=\dimen286
+\scratchdimen=\dimen290
 \scratchbox=\box72
 \nofMPsegments=\count319
 \nofMParguments=\count320
 \everyMPshowfont=\toks47
 \MPscratchCnt=\count321
-\MPscratchDim=\dimen287
+\MPscratchDim=\dimen291
 \MPnumerator=\count322
 \makeMPintoPDFobject=\count323
 \everyMPtoPDFconversion=\toks48
@@ -1240,7 +1264,64 @@ File: ../orbitasMN.png Graphic file (type png)
 <use ../orbitasMN.png>
 Package pdftex.def Info: ../orbitasMN.png  used on input line 265.
 (pdftex.def)             Requested size: 252.0pt x 252.00041pt.
- (main.bbl) [3 <../orbitasMN.png>] (main.aux
+ [3 <../orbitasMN.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+<../ajusteMW.png, id=32, 462.528pt x 346.896pt>
+File: ../ajusteMW.png Graphic file (type png)
+<use ../ajusteMW.png>
+Package pdftex.def Info: ../ajusteMW.png  used on input line 410.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+Underfull \hbox (badness 1354) in paragraph at lines 424--425
+\OT1/txr/m/n/10 del mo-de-lo. Ini-cial-men-te, se es-co-gie-ron co-mo par[]ame-
+tros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+<../frecuenciascorregidas.png, id=36, 867.24pt x 361.35pt>
+File: ../frecuenciascorregidas.png Graphic file (type png)
+<use ../frecuenciascorregidas.png>
+Package pdftex.def Info: ../frecuenciascorregidas.png  used on input line 449.
+(pdftex.def)             Requested size: 252.0pt x 104.99834pt.
+<../orbitascorregidas.png, id=37, 578.16pt x 578.16pt>
+File: ../orbitascorregidas.png Graphic file (type png)
+<use ../orbitascorregidas.png>
+Package pdftex.def Info: ../orbitascorregidas.png  used on input line 454.
+(pdftex.def)             Requested size: 252.0pt x 252.00041pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <../ajusteMW.png> <../frecuenciascorregidas.png>]
+<../ajusteMWhalo.png, id=43, 462.528pt x 346.896pt>
+File: ../ajusteMWhalo.png Graphic file (type png)
+<use ../ajusteMWhalo.png>
+Package pdftex.def Info: ../ajusteMWhalo.png  used on input line 467.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(main.bbl) [6 <../orbitascorregidas.png> <../ajusteMWhalo.png>] (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1250,24 +1331,26 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 27962 strings out of 475248
- 695195 string characters out of 5757814
+ 28533 strings out of 475248
+ 710076 string characters out of 5757814
  1947801 words of memory out of 5000000
- 48993 multiletter control sequences out of 15000+600000
- 590927 words of font info for 112 fonts, out of 8000000 for 9000
+ 49544 multiletter control sequences out of 15000+600000
+ 592651 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,89p,1183b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxm
-i.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/
-rtxr.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfon
-ts/txex.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/tx
-fonts/txsy.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmr8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on main.pdf (3 pages, 333559 bytes).
+ 84i,14n,89p,1289b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmtt10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/symbols/msam10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/txfonts/rtxmi.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/font
+s/type1/public/txfonts/rtxr.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/txfonts/txex.pfb><C:/Users/santi/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/txfonts/txsy.pfb><C:/Users/santi/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/santi/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/santi/AppData/Local/Programs/Mi
+KTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 624414 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
