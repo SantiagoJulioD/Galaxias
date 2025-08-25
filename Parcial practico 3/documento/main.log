@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  25 AUG 2025 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  25 AUG 2025 03:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1251,7 +1251,7 @@ File: ../fit.png Graphic file (type png)
 <use ../fit.png>
 Package pdftex.def Info: ../fit.png  used on input line 327.
 (pdftex.def)             Requested size: 252.0pt x 126.00021pt.
- (main.bbl) [3 <../sig.png> <../numdens.png> <../fit.png>] (main.aux
+ [3 <../sig.png> <../numdens.png> <../fit.png>] (main.bbl) [4] (main.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
@@ -1265,13 +1265,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28461 strings out of 475248
- 708095 string characters out of 5757814
+ 28473 strings out of 475248
+ 708297 string characters out of 5757814
  1949801 words of memory out of 5000000
- 49466 multiletter control sequences out of 15000+600000
+ 49478 multiletter control sequences out of 15000+600000
  600540 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,13n,89p,1162b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,89p,1517b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb
 mi.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts
 /rtxmi.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
@@ -1281,9 +1281,9 @@ ic/txfonts/txsy.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmb8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 275822 bytes).
+Output written on main.pdf (4 pages, 282175 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
