@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  4 AUG 2025 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  24 AUG 2025 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,35 +1199,8 @@ File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 154.
-<../potencial.png, id=4, 722.7pt x 650.43pt>
-File: ../potencial.png Graphic file (type png)
-<use ../potencial.png>
-Package pdftex.def Info: ../potencial.png  used on input line 165.
-(pdftex.def)             Requested size: 252.0pt x 226.80037pt.
-<../densidad.png, id=6, 722.7pt x 650.43pt>
-File: ../densidad.png Graphic file (type png)
-<use ../densidad.png>
-Package pdftex.def Info: ../densidad.png  used on input line 178.
-(pdftex.def)             Requested size: 252.0pt x 226.80037pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 182--183
-\OT1/txr/m/n/10 re-la-ti-va-men-te acha-ta-da y con un dis-co con-si-de-ra-ble-
-men-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
-
+(main.bbl)
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [] 
  []
@@ -1236,94 +1209,10 @@ Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 nti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <../potencial.png> <../densidad.png>]
-Underfull \hbox (badness 1400) in paragraph at lines 242--243
-\OT1/txr/m/n/10 1.11[] se pue-de des-com-po-ner en dos t[]ermi-nos: el pri-me-r
-o
- []
 
-
-Underfull \hbox (badness 3138) in paragraph at lines 242--243
-\OT1/txr/m/n/10 mon[]oto-na-men-te de-cre-cien-te. Es-te com-por-ta-mien-to de 
-las
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-<../frecuenciasMN.png, id=20, 867.24pt x 361.35pt>
-File: ../frecuenciasMN.png Graphic file (type png)
-<use ../frecuenciasMN.png>
-Package pdftex.def Info: ../frecuenciasMN.png  used on input line 245.
-(pdftex.def)             Requested size: 252.0pt x 104.99834pt.
-[2 <../frecuenciasMN.png>]
-<../orbitasMN.png, id=25, 578.16pt x 578.16pt>
-File: ../orbitasMN.png Graphic file (type png)
-<use ../orbitasMN.png>
-Package pdftex.def Info: ../orbitasMN.png  used on input line 265.
-(pdftex.def)             Requested size: 252.0pt x 252.00041pt.
- [3 <../orbitasMN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
-
- []
-
-<../ajusteMW.png, id=32, 462.528pt x 346.896pt>
-File: ../ajusteMW.png Graphic file (type png)
-<use ../ajusteMW.png>
-Package pdftex.def Info: ../ajusteMW.png  used on input line 410.
-(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4]
-Underfull \hbox (badness 1354) in paragraph at lines 424--425
-\OT1/txr/m/n/10 del mo-de-lo. Ini-cial-men-te, se es-co-gie-ron co-mo par[]ame-
-tros
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
-
- []
-
-<../frecuenciascorregidas.png, id=36, 867.24pt x 361.35pt>
-File: ../frecuenciascorregidas.png Graphic file (type png)
-<use ../frecuenciascorregidas.png>
-Package pdftex.def Info: ../frecuenciascorregidas.png  used on input line 449.
-(pdftex.def)             Requested size: 252.0pt x 104.99834pt.
-<../orbitascorregidas.png, id=37, 578.16pt x 578.16pt>
-File: ../orbitascorregidas.png Graphic file (type png)
-<use ../orbitascorregidas.png>
-Package pdftex.def Info: ../orbitascorregidas.png  used on input line 454.
-(pdftex.def)             Requested size: 252.0pt x 252.00041pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 <../ajusteMW.png> <../frecuenciascorregidas.png>]
-<../ajusteMWhalo.png, id=43, 462.528pt x 346.896pt>
-File: ../ajusteMWhalo.png Graphic file (type png)
-<use ../ajusteMWhalo.png>
-Package pdftex.def Info: ../ajusteMWhalo.png  used on input line 467.
-(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(main.bbl) [6 <../orbitascorregidas.png> <../ajusteMWhalo.png>] (main.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+] (main.aux
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -1331,26 +1220,20 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28533 strings out of 475248
- 710076 string characters out of 5757814
- 1947801 words of memory out of 5000000
- 49544 multiletter control sequences out of 15000+600000
- 592651 words of font info for 116 fonts, out of 8000000 for 9000
+ 28369 strings out of 475248
+ 706540 string characters out of 5757814
+ 1922801 words of memory out of 5000000
+ 49394 multiletter control sequences out of 15000+600000
+ 585005 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,89p,1289b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmtt10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/symbols/msam10.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/txfonts/rtxmi.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/font
-s/type1/public/txfonts/rtxr.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/txfonts/txex.pfb><C:/Users/santi/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/txfonts/txsy.pfb><C:/Users/santi/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/santi/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/santi/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 624414 bytes).
+ 84i,6n,89p,727b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pf
+b><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
+b><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on main.pdf (1 page, 45915 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
