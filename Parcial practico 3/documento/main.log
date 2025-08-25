@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  24 AUG 2025 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2024.4.9)  25 AUG 2025 02:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,16 +1064,19 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (main.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+
+
+LaTeX Warning: Label `eq:mass' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 65.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 65.
-
-(C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
+ (C:\Users\santi\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 65.
@@ -1199,8 +1202,16 @@ File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 154.
+<../beta.png, id=4, 462.528pt x 346.896pt>
+File: ../beta.png Graphic file (type png)
+<use ../beta.png>
+Package pdftex.def Info: ../beta.png  used on input line 231.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-(main.bbl)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [] 
  []
@@ -1209,31 +1220,70 @@ Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 nti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
+]
+<../vm.png, id=18, 1156.32pt x 361.35pt>
+File: ../vm.png Graphic file (type png)
+<use ../vm.png>
+Package pdftex.def Info: ../vm.png  used on input line 257.
+(pdftex.def)             Requested size: 252.0pt x 78.74738pt.
+<../div.png, id=19, 439.4016pt x 330.2739pt>
+File: ../div.png Graphic file (type png)
+<use ../div.png>
+Package pdftex.def Info: ../div.png  used on input line 279.
+(pdftex.def)             Requested size: 252.0pt x 189.41716pt.
+<../sig.png, id=20, 462.528pt x 346.896pt>
+File: ../sig.png Graphic file (type png)
+<use ../sig.png>
+Package pdftex.def Info: ../sig.png  used on input line 291.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-] (main.aux
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <../beta.png> <../vm.png> <../div.png>]
+<../numdens.png, id=27, 462.528pt x 346.896pt>
+File: ../numdens.png Graphic file (type png)
+<use ../numdens.png>
+Package pdftex.def Info: ../numdens.png  used on input line 321.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+<../fit.png, id=28, 722.7pt x 361.35pt>
+File: ../fit.png Graphic file (type png)
+<use ../fit.png>
+Package pdftex.def Info: ../fit.png  used on input line 327.
+(pdftex.def)             Requested size: 252.0pt x 126.00021pt.
+ (main.bbl) [3 <../sig.png> <../numdens.png> <../fit.png>] (main.aux
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
 )
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 28369 strings out of 475248
- 706540 string characters out of 5757814
- 1922801 words of memory out of 5000000
- 49394 multiletter control sequences out of 15000+600000
- 585005 words of font info for 102 fonts, out of 8000000 for 9000
+ 28461 strings out of 475248
+ 708095 string characters out of 5757814
+ 1949801 words of memory out of 5000000
+ 49466 multiletter control sequences out of 15000+600000
+ 600540 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,89p,727b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pf
-b><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
-b><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on main.pdf (1 page, 45915 bytes).
+ 84i,13n,89p,1162b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb
+mi.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts
+/rtxmi.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
+onts/rtxr.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+txfonts/txex.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/txfonts/txsy.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/times/utmb8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/times/utmr8a.pfb><C:/Users/santi/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 275822 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

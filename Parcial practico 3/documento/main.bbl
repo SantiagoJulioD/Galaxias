@@ -1,3 +1,28 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{soto2009fisica}
+Alonso Sepúlveda.
+\newblock {\em F{\'\i}sica matem{\'a}tica}.
+\newblock Universidad de Antioquia, 2009.
+
+\bibitem{binney2011galactic}
+James Binney and Scott Tremaine.
+\newblock {\em Galactic dynamics}.
+\newblock Princeton university press, 2011.
+
+\bibitem{vsirca2016probability}
+Simon {\v{S}}irca.
+\newblock {\em Probability for physicists}.
+\newblock Springer, 2016.
+
+\bibitem{davison1997bootstrap}
+Anthony~Christopher Davison and David~Victor Hinkley.
+\newblock {\em Bootstrap methods and their application}.
+\newblock Number~1. Cambridge university press, 1997.
+
+\bibitem{pathria}
+R.~K. Pathria and Paul~D. Beale.
+\newblock {\em Statistical Mechanics}.
+\newblock Elsevier, 2011.
 
 \end{thebibliography}
